@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+    height: 97vh;
+    position: relative;
+    color: white;
+    background-color: black;
+}
+header{
+    
+    text-align: right;
+}
+header h2{
+    display: inline;
+    margin: 10px;
+}
+
+#chapel{
+    width: 634px;
+}
+main{
+    min-height: 87vh;
+    max-width: 100%;
+    min-width: 300px;
+}
+h1{
+    position: absolute;
+    font-size: 15em;
+    left: 21%;
+    
+}
+main > p{
+    position: absolute;
+    left: 80%;
+   bottom:35%;
+    
+}
+footer{
+    text-align: center;
+}
+footer > p > a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
